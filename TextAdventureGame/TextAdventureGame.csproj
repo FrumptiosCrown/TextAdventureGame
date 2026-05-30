@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Sources\Enums\" />
+    <Folder Include="Sources\Manager\" />
+    <Folder Include="Sources\Test\" />
+    <Folder Include="Sources\AI\" />
+    <Folder Include="Sources\UI\ViewModels\" />
+    <Folder Include="Sources\UI\Views\" />
+  </ItemGroup>
+
+</Project>
