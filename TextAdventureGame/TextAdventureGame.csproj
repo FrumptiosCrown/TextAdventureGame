@@ -9,12 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Sources\Enums\" />
-    <Folder Include="Sources\Manager\" />
     <Folder Include="Sources\Test\" />
-    <Folder Include="Sources\AI\" />
-    <Folder Include="Sources\UI\ViewModels\" />
-    <Folder Include="Sources\UI\Views\" />
   </ItemGroup>
 
 </Project>

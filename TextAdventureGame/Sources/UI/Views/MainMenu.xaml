@@ -1,0 +1,16 @@
+﻿<Window x:Class="TextAdventureGame.Sources.UI.Views.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextAdventureGame.Sources.UI.Views"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="450" Width="720">
+    <Grid>
+        <Button Content="Start" Command="{Binding myCommand}" CommandParameter="Start" HorizontalAlignment="Left" Margin="40,143,0,0" VerticalAlignment="Top" Height="54" Width="210" />
+        <Button Content="Settings" Command="{Binding myCommand}" CommandParameter="Settings" HorizontalAlignment="Left" Margin="40,229,0,0" VerticalAlignment="Top" Height="54" Width="210"/>
+        <Button Content="Quit" Command="{Binding myCommand}" CommandParameter="Quit" HorizontalAlignment="Left" Margin="40,314,0,0" VerticalAlignment="Top" Height="54" Width="210"/>
+        <Label Content="Text Adventure Game" HorizontalAlignment="Left" Margin="30,31,0,0" VerticalAlignment="Top" Height="74" Width="356" FontSize="42" FontFamily="Gabriola"/>
+
+    </Grid>
+</Window>

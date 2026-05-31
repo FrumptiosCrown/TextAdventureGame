@@ -6,11 +6,16 @@ namespace TextAdventureGame.Sources.Models
 {
     class Stats
     {
-        public double strength = 0;
-        public double dexterity = 0;
-        public double constitution = 0; 
-        public double intelligence = 0;
-        public Stats() 
-        { }
+        public double strength { get; set; }
+        public double dexterity { get; set; }
+        public double constitution { get; set; }
+        public double intelligence { get; set; }
+        public Stats(double strenghtparam, double dexterityparam, double constitutionparam, double intelligenceparam) 
+        {
+            strength = strenghtparam;
+            dexterity = dexterityparam;
+            constitution = constitutionparam;
+            intelligence = intelligenceparam;
+        }
     }
 }
