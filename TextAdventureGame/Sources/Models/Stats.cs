@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextAdventureGame.Sources.Models
 {
-    class Stats
+    public class Stats
     {
         public double strength { get; set; }
         public double dexterity { get; set; }

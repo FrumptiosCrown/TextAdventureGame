@@ -5,17 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextAdventureGame.Sources.UI.Views"
         mc:Ignorable="d"
-        Title="GameWindow" Height="450" Width="800">
+        Title="GameWindow" Height="450" Width="800"
+        Name="CloseGameWindow">
     <Grid>
         <ScrollViewer Margin="0,10,147,166">
             <TextBlock Background="AliceBlue" LineHeight="5" Text="{Binding AIOutput}" Margin="19,24,0,0" ScrollViewer.HorizontalScrollBarVisibility="Visible" FontSize="24" FontFamily="Gabriola" TextWrapping="Wrap"  Name="NarratorOutput" Height="230" Width="612" Padding="0"/>
         </ScrollViewer>
         <TextBox HorizontalAlignment="Left" x:Name="txtbAction" Margin="19,320,0,0" TextWrapping="Wrap" Text="Your Action" FontFamily="Gabriola" FontSize="24" VerticalAlignment="Top" Width="520" Height="51">
             <TextBox.InputBindings>
-                <KeyBinding Command="{Binding GameWindowCommand}" CommandParameter="{Binding Text, ElementName= txtbAction}" Key="Enter"/>
+                <KeyBinding Command="{Binding textboxCommand}" CommandParameter="{Binding Text, ElementName= txtbAction}" Key="Enter"/>
             </TextBox.InputBindings>
         </TextBox>
-        <Button Content="Stats" HorizontalAlignment="Left" Height="58" Margin="612,288,0,0" VerticalAlignment="Top" Width="161"/>
-        <Button Content="Quit" HorizontalAlignment="Left" Height="58" Margin="612,351,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button Content="Stats" Command="{Binding buttonCommand}" CommandParameter="player" HorizontalAlignment="Left" Height="58" Margin="612,288,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button Content="Quit" Command="{Binding closeWindowCommand, Mode=OneWay}" CommandParameter="{Binding ElementName=CloseGameWindow}" HorizontalAlignment="Left" Height="58" Margin="612,351,0,0" VerticalAlignment="Top" Width="161"/>
     </Grid>
 </Window>

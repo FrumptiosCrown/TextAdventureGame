@@ -2,7 +2,7 @@
 
 namespace TextAdventureGame.Sources.AI
 {
-    internal class Narrator
+    public class Narrator
     {
         APICaller apiCaller = new APICaller();
         public Narrator() { }

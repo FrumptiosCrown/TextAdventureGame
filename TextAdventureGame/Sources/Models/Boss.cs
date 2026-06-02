@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TextAdventureGame.Sources.Models
+﻿namespace TextAdventureGame.Sources.Models
 {
     internal class Boss : Enemy
     {

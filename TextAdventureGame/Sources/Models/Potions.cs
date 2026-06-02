@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextAdventureGame.Sources.Models
 {
-    internal class Potions : Item
+    public class Potions : Item
     {
     }
 }

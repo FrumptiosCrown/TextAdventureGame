@@ -5,7 +5,7 @@ using TextAdventureGame.Sources.Enums;
 
 namespace TextAdventureGame.Sources.Models
 {
-    internal class Weapon : Item
+    public class Weapon : Item
     {
         public double strengthBoost {  get; set; }
 

@@ -2,7 +2,7 @@
 
 namespace TextAdventureGame.Sources.Models
 {
-    internal class Item
+    public class Item
     {
         public double durability { get; set; }
         public RarityLevel raritylevel { get; set; }

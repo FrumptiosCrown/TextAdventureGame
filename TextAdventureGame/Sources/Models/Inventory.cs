@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextAdventureGame.Sources.Models
 {
-    internal class Inventory
+    public class Inventory
     {
         public List<Item> itemsList = new();
         public Armor EquipedArmor { get; set; }

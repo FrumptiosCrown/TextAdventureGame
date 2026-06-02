@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextAdventureGame.Sources.Manager
 {
-    internal class SavegameManager
+    public class SavegameManager
     {
     }
 }

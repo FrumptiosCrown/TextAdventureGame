@@ -6,7 +6,7 @@ using TextAdventureGame.Sources.Models;
 
 namespace TextAdventureGame.Sources.Manager
 {
-    internal class InventoryManager
+    public class InventoryManager
     {
         public Inventory inventory = new();
         public InventoryManager() 

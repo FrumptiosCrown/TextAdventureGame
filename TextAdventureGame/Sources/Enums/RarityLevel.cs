@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextAdventureGame.Sources.Enums
 {
-    internal enum RarityLevel
+    public enum RarityLevel
     {
         Common = 0,
         Uncommon = 1, 

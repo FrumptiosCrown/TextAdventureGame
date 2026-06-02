@@ -3,7 +3,7 @@ using TextAdventureGame.Sources.Manager;
 
 namespace TextAdventureGame.Sources.Models
 {
-    internal class Player
+    public class Player
     {
         public Stats playerStats;
         public InventoryManager inventoryManager = new();

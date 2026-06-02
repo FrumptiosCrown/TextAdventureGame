@@ -5,7 +5,7 @@ using TextAdventureGame.Sources.Models;
 
 namespace TextAdventureGame.Sources.Manager
 {
-    internal class PlayerManager
+    public class PlayerManager
     {
         public Player player = new();
         public PlayerManager()

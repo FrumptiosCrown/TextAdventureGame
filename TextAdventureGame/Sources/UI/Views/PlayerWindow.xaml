@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="PlayerWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid Margin="0,0,0,-65">
+
+            <TextBlock HorizontalAlignment="Left" FontFamily="Gabriola" FontSize="24px" Margin="10,50,0,0" TextWrapping="Wrap" Text="{Binding stats}" VerticalAlignment="Top" Height="330" Width="314"/>
+        </Grid>
     </Grid>
 </Window>

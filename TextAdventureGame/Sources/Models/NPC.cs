@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextAdventureGame.Sources.Models
 {
-    internal class NPC : Enemy
+    public class NPC : Enemy
     {
     }
 }
