@@ -1,9 +1,10 @@
-<h1>TextAdventure Game</h1>
+<h1>Text Adventure Game</h1>
 <p>
   This is my first Project published on Github. It's a Text Adventure Game powered by Google Geminis API. The Project is being made with WPF with the .net 10 Framework. As im currently still Working on it to make it a working Game.
   <h1>Requirements</h1>
   <ul>
     <li> .NET SDK Installed</li>
+    <li> Google.GenAI NuGetPackage</li>
     <li> an Environment variable named "GOOGLE_API_KEY" with its value being an Gemini API KEY</li>
   </ul>
   </p>
